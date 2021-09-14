@@ -1,0 +1,10 @@
+body {
+  background-color: #fadcac;
+}
+.digits {
+  text-align: left;
+}
+
+ul {
+  list-style-type: "✿";
+}

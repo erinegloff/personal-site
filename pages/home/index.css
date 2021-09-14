@@ -1,0 +1,57 @@
+h1 {
+  margin: auto;
+  padding-top: 75px;
+  color: #fadcac;
+}
+
+.p1 {
+  margin: auto;
+  color: #fadcac;
+}
+
+.top-container {
+  background-color: #065446;
+  position: relative;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.sunflower-field {
+  padding-top: 5%;
+  width: 80%;
+}
+
+.container2 {
+  background-color: #197163;
+}
+
+.profile-pic {
+  width: 40%;
+}
+
+.p2 {
+  color: antiquewhite;
+}
+
+.container3 {
+  background-color: #158467;
+  height: 200px;
+}
+
+.container4 {
+  background-color: #fadcac;
+  height: 200px;
+}
+
+.sunflower1 {
+  width: 40%;
+  float: left;
+}
+.sunflower2 {
+  width: 40%;
+  float: right;
+}

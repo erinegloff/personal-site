@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.container {
+  padding: 25px;
+  margin: 50px;
+}
+
+.link-button {
+  padding: 15px;
+}
+
+.link-button:hover {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+.link:hover {
+  color: #0b9b82;
+}
+
+a {
+  text-decoration: none;
+}
+
+.green-text {
+  color: #065446;
+}
+
+.yellow-text {
+  color: #fadcac;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/* Font imports */
+/* poppins-regular - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v15-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/poppins-v15-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins-v15-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/poppins-v15-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/poppins-v15-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/poppins-v15-latin-regular.svg#Poppins") format("svg"); /* Legacy iOS */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v15-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/poppins-v15-latin-600.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins-v15-latin-600.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/poppins-v15-latin-600.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/poppins-v15-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/poppins-v15-latin-600.svg#Poppins")
+      format("svg"); /* Legacy iOS */
+}
+/* poppins-800 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/poppins-v15-latin-800.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/poppins-v15-latin-800.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins-v15-latin-800.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/poppins-v15-latin-800.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/poppins-v15-latin-800.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/poppins-v15-latin-800.svg#Poppins")
+      format("svg"); /* Legacy iOS */
+}
